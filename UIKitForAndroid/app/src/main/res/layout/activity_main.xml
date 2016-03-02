@@ -8,17 +8,11 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
-    <com.winston.uikit.CursorSeekBar
-        android:id="@+id/rankseekbar"
-        xmlns:cursorseekbar="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        cursorseekbar:autoMoveDuration="200"
-        cursorseekbar:cursorBackground="@drawable/cursor_bg"
-        cursorseekbar:markTextArray="@array/markArray"
-        cursorseekbar:spaceBetween="40dp"
-        cursorseekbar:textSize="15dp"
-        />
+    <Button
+        android:id="@+id/cursorSeekBar_Button"
+        android:text="CursorSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>

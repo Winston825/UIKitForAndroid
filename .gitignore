@@ -30,3 +30,7 @@ proguard/
 
 # Android Studio captures folder
 captures/
+UIKitForAndroid/.idea/compiler.xml
+UIKitForAndroid/.idea/gradle.xml
+UIKitForAndroid/.idea/misc.xml
+UIKitForAndroid/app/app.iml
