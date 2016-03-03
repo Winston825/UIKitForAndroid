@@ -17,7 +17,7 @@ public class CursorSeekBarActitvity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cursor_seekbar);
-        mCursorSeekBar = (CursorSeekBar) findViewById(R.id.rankseekbar);
+        mCursorSeekBar = (CursorSeekBar) findViewById(R.id.cursorSeekbar);
         mCursorSeekBar.setOnCursorChangeListener(new CursorSeekBar.OnCursorChangeListener() {
             @Override
             public void onCursorChanged(int location, String textMark) {
